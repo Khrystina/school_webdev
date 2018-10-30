@@ -12,43 +12,9 @@
     <body>
     <header>
         <img src="img/logo.png" alt="H2O Empire">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">H20 Empire</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="health.php">Health Benefits<span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item active">
-                <a class="nav-link" href="uses.php">Uses<span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="funfacts.php">Fun Facts</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="source.php">Source</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="store.php">Store</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
-              </li>
-            </ul>
+        
+        <?php include '../resources/navigation.php'; ?>
+        
           </div>
         </nav>
         <hr>
@@ -83,10 +49,7 @@
           <img src="img/uses_2.jpg" alt="Making grass greener.">
           <br><br><br>
 
-          <footer>
-              <hr>
-              H2O Empire; Blake Dalmas &#38; Tanner Alderson 2018
-          </footer>
+          <?php include '../resources/footer.php'; ?>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
