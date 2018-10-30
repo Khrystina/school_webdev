@@ -24,31 +24,31 @@
 
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index.php">Home</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="health.html">Health Benefits</a>
+                  <a class="nav-link" href="health.php">Health Benefits</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="uses.html">Uses</a>
+                  <a class="nav-link" href="uses.php">Uses</a>
                 </li>
 
                 <li class="nav-item active">
-                  <a class="nav-link" href="funfacts.html">Fun Facts<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="funfacts.php">Fun Facts<span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="source.html">Source</a>
+                  <a class="nav-link" href="source.php">Source</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="store.html">Store</a>
+                  <a class="nav-link" href="store.php">Store</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="about.php">About</a>
                 </li>
 
               </ul>
@@ -58,8 +58,8 @@
           <hr>
       </header>
     <p>
-      <a class="btn btn-secondary" href="login.html" role="button">Login</a>  
-      <a class="btn btn-secondary" href="signup.html" role="button">Sign-up</a>
+      <a class="btn btn-secondary" href="login.php" role="button">Login</a>  
+      <a class="btn btn-secondary" href="signup.php" role="button">Sign-up</a>
     </p>
     
     <div class="container">
