@@ -12,7 +12,7 @@
 
     <body>
     
-    <?php include '../resources/navigation.php'; ?>
+    <?php include '../resources/navigatio.php'; ?>
     
         <header>
             <img src="img/logo.png" alt="H2O Empire">
